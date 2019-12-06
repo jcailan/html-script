@@ -1,5 +1,5 @@
 function getElementsByIdAndClassName(sId, sClassName) {
-    var aResult = []; debugger;
+    var aResult = [];
     var aElements = document.getElementsByClassName(sClassName);
     for (var i=0; i < aElements.length; i++) {
         if (aElements[i].id === sId) {
